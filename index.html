@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="owl.carousel/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="owl.carousel/owl.theme.css">
 </head>
 <body>
 	<!-- Header -->
@@ -85,17 +87,16 @@
 					<!-- Gallery -->
 					<div class="container">
 						<h2 class="gallery__header" id="gallery">Галерея</h2>
-						<div class="gallery__slider">
-							<img src="img/gallery.PNG" alt="" class="gallery__slide">
-							<img src="" alt="" class="gallery__slide">
-							<img src="" alt="" class="gallery__slide">
-							<img src="" alt="" class="gallery__slide">
-							<img src="" alt="" class="gallery__slide">
-							<img src="" alt="" class="gallery__slide">
-							<img src="" alt="" class="gallery__slide">
-							<img src="" alt="" class="gallery__slide">
-							<img src="" alt="" class="gallery__slide">
-							<img src="" alt="" class="gallery__slide">
+						<div id="owl-example" class="owl-carousel">
+							<div><img src="http://placehold.it/300x300" alt=""></div>
+							<div><img src="http://placehold.it/300x300" alt=""></div>
+							<div><img src="http://placehold.it/300x300" alt=""></div>
+							<div><img src="http://placehold.it/300x300" alt=""></div>
+							<div><img src="http://placehold.it/300x300" alt=""></div>
+							<div><img src="http://placehold.it/300x300" alt=""></div>
+							<div><img src="http://placehold.it/300x300" alt=""></div>
+							<div><img src="http://placehold.it/300x300" alt=""></div>
+							<div><img src="http://placehold.it/300x300" alt=""></div>
 						</div>
 					</div>
 					<!-- Gallery -->
@@ -332,7 +333,15 @@
 					</div>
 				</footer>
 				<!-- Footer -->
+				<script>
+					$(document).ready(function() {
 
+						$("#owl-example").owlCarousel();
+
+					});
+				</script>
+				<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+				<script src="owl.carousel/owl.carousel.js"></script>
 				<script src="js/jquery-1.11.3.min.js"></script>
 				<script src="js/script.js"></script>
 			</body>

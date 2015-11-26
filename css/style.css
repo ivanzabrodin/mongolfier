@@ -223,7 +223,10 @@ header li a:hover {
 
 .brief__video {
 	padding-top: 20px;
+	position: relative;
 }
+
+
 /*Brief*/
 
 /*Gallery*/
@@ -801,3 +804,5 @@ footer li a:hover {
 	border: 1px solid white;
 }
 /*Footer*/
+
+
