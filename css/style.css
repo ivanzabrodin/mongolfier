@@ -252,6 +252,15 @@ header li a:hover {
 	padding-top: 66px;
 	padding-bottom: 90px;
 }
+
+.owl-carousel {
+	margin-top: 60px;
+	margin-bottom: 90px;
+}
+
+.owl-carousel img {
+	border-radius: 10px;
+}
 /*Gallery*/
 
 /*Fly*/
@@ -289,7 +298,10 @@ header li a:hover {
 
 .count__time {
 	padding: 0;
+	line-height: 100px;
 }
+
+
 /*Count*/
 
 /*Price*/

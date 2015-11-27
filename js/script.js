@@ -1,3 +1,20 @@
+$(document).ready(function() {
+ 
+  $("#owl-example").owlCarousel({
+ 
+      autoplay:true,
+      autoplayTimeout:2000,
+      autoplayHoverPause:true,
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3],
+      margin: 20,
+      loop: true
+ 
+  });
+ 
+});
+
 $('.smoothScroll').click(function(event) {
     event.preventDefault();
     var href=$(this).attr('href');
@@ -8,32 +25,9 @@ $('.smoothScroll').click(function(event) {
     }, 1000);
     });
 
-$(document).ready(function(){
-	
-	$('.js-tab-link').on('click', tabToggle);
-
-	function tabToggle(e) {
-	e.preventDefault();
-
-	$('.js-tab-link').removeClass('tab-link-active');
-	$(this).addClass('tab-link-active');
-
-	$('.tab-item').removeClass('tab-item-active');
-	$(this.hash).addClass('tab-item-active');
-	}
-
-});
-
-$(document).ready(function() {
- 
-  $("#owl-example").owlCarousel({
- 
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
- 
-      items : 4,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
- 
+$(function () {
+    var austDay = new Date();                               // сегодняшняя дата
+    austDay = new Date(austDay.getFullYear() + 1, 0, 1);    // дата, до которой считаем
+    // console.log(austDay);
+    $('#countdown').countdown({until: austDay, padZeroes: true});
   });
- 
-});

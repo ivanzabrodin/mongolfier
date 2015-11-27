@@ -6,8 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="owl.carousel/owl.carousel.css">
-	<link rel="stylesheet" type="text/css" href="owl.carousel/owl.theme.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.countdown.css">
 </head>
 <body>
 	<!-- Header -->
@@ -88,15 +89,14 @@
 					<div class="container">
 						<h2 class="gallery__header" id="gallery">Галерея</h2>
 						<div id="owl-example" class="owl-carousel">
-							<div><img src="http://placehold.it/300x300" alt=""></div>
-							<div><img src="http://placehold.it/300x300" alt=""></div>
-							<div><img src="http://placehold.it/300x300" alt=""></div>
-							<div><img src="http://placehold.it/300x300" alt=""></div>
-							<div><img src="http://placehold.it/300x300" alt=""></div>
-							<div><img src="http://placehold.it/300x300" alt=""></div>
-							<div><img src="http://placehold.it/300x300" alt=""></div>
-							<div><img src="http://placehold.it/300x300" alt=""></div>
-							<div><img src="http://placehold.it/300x300" alt=""></div>
+							<div><img src="img/gallery1.png" alt="Фото"></div>
+							<div><img src="img/gallery2.png" alt="Фото"></div>
+							<div><img src="img/gallery3.png" alt="Фото"></div>
+							<div><img src="img/gallery4.png" alt="Фото"></div>
+							<div><img src="img/gallery1.png" alt="Фото"></div>
+							<div><img src="img/gallery2.png" alt="Фото"></div>
+							<div><img src="img/gallery3.png" alt="Фото"></div>
+							<div><img src="img/gallery4.png" alt="Фото"></div>
 						</div>
 					</div>
 					<!-- Gallery -->
@@ -114,11 +114,11 @@
 					<div class="count">
 						<div class="container">
 							<div class="row">
-								<div class="column7">
+								<div class="column6">
 									<span class="count__text">До ближайшего полета</span>
 								</div>
-								<div class="column5">
-									<script type="text/javascript" src="http://www.timegenerator.ru/s/9d08ee0d8cc121f875026814e192ed83.js"></script>
+								<div class="column6">
+									<div id="countdown"></div>
 								</div>
 							</div>
 						</div>
@@ -333,16 +333,11 @@
 					</div>
 				</footer>
 				<!-- Footer -->
-				<script>
-					$(document).ready(function() {
-
-						$("#owl-example").owlCarousel();
-
-					});
-				</script>
-				<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-				<script src="owl.carousel/owl.carousel.js"></script>
 				<script src="js/jquery-1.11.3.min.js"></script>
+				<script src="js/jquery.plugin.min.js"></script>
+				<script src="js/jquery.countdown.js"></script>
+				<script src="js/jquery.countdown-ru.js"></script>
+				<script src="js/owl.carousel.js"></script>
 				<script src="js/script.js"></script>
 			</body>
 			</html>
