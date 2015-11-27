@@ -115,6 +115,7 @@ header li a:hover {
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+	text-align: center;
 }
 
 .promo h1 {
@@ -124,6 +125,8 @@ header li a:hover {
 	text-align: center;
 	margin: 0;
 	padding-top: 170px;
+	width: 690px;
+	display: inline-block;
 }
 
 .promo__more {
@@ -219,6 +222,7 @@ header li a:hover {
 	color: #444444;
 	font-size: 18px;
 	padding-top: 35px;
+	width: 356px;
 }
 
 .brief__video {
