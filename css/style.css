@@ -273,6 +273,7 @@ header li a:hover {
 	font-weight: 500;
 	color: #444444;
 	position: relative; 
+	
 }
 
 .fly__header:after {
@@ -283,6 +284,54 @@ header li a:hover {
 	bottom: -20px;
 	left: 536px;
 	position: absolute;	
+}
+
+.fly-parallax {
+	background-image: url(../img/bg-fly.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.fly-parallax__path {
+	position: absolute;
+	top: 130px;
+}
+
+#fly__scene {
+	height: 570px;
+	margin-top: 84px;
+	position: relative;
+}
+
+.fly__scene__one {
+	position: absolute;
+	top: 35%;
+	left: 0;
+}
+
+.fly__scene__two {
+	position: absolute;
+	top: 23%;
+	left: 23%;
+}
+
+.fly__scene__three {
+	position: absolute;
+	top: 3%;
+	left: 46%;
+}
+
+.fly__scene__four {
+	position: absolute;
+	top: 27%;
+	right: 23%;
+}
+
+.fly__scene__five {
+	position: absolute;
+	top: 34%;
+	right: 0;
 }
 /*Fly*/
 

@@ -29,6 +29,9 @@ $(document).ready(function() {
     // console.log(austDay);
     $('#countdown').countdown({until: austDay, padZeroes: true});
   });
+
+  var scene =document.getElementById('fly__scene')
+  var parallax = new Parallax(scene);
  
 });
 
