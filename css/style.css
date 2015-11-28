@@ -226,8 +226,7 @@ header li a:hover {
 }
 
 .brief__video {
-	padding-top: 20px;
-	position: relative;
+	padding-top: 50px;
 }
 
 
@@ -336,6 +335,7 @@ header li a:hover {
 	font-size: 	18px;
 	color: #444444;
 	margin-bottom: 10px;
+	width: 440px;
 }
 
 .price__order {

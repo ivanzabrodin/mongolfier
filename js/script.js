@@ -12,10 +12,8 @@ $(document).ready(function() {
       loop: true
  
   });
- 
-});
 
-$('.smoothScroll').click(function(event) {
+  $('.smoothScroll').click(function(event) {
     event.preventDefault();
     var href=$(this).attr('href');
     var target=$(href);
@@ -25,9 +23,14 @@ $('.smoothScroll').click(function(event) {
     }, 1000);
     });
 
-$(function () {
+  $(function () {
     var austDay = new Date();                               // сегодняшняя дата
     austDay = new Date(austDay.getFullYear() + 1, 0, 1);    // дата, до которой считаем
     // console.log(austDay);
     $('#countdown').countdown({until: austDay, padZeroes: true});
   });
+ 
+});
+
+
+
